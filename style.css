@@ -33,3 +33,16 @@ body {
     position: relative;
     transition: flex 0.7s ease-in;
 }
+
+.panel h3 {
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    margin: 0px;
+    opacity: 0px;
+}
+
+.panel.active {
+    flex: 5;
+}
